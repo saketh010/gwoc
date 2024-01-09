@@ -1,0 +1,151 @@
+.footer
+{
+    text-align: center;
+    margin: 0 auto;
+    color: #011314;
+    background-color: black;
+}
+
+.footer-inner
+{
+    padding-top: 60px;
+}
+
+.footer-social
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.social 
+{
+    padding-left: 0px;
+}
+
+.social > a
+{
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+/* .social > li > a 
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    padding: 1%;
+    cursor: pointer;
+    transition: ease .3s;
+    text-decoration: none;
+} */
+
+.tweet
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    padding: 1%;
+    cursor: pointer;
+    transition: ease .3s;
+    text-decoration: none;
+}
+
+.insta
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    padding: 1%;
+    cursor: pointer;
+    transition: ease .3s;
+    text-decoration: none;
+}
+
+.ig
+{
+color: white;
+text-decoration: none;
+}
+
+.x{
+color: white;
+text-decoration: none;
+}
+
+.ig:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.x:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.footer-copyright
+{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 25px;
+}
+
+.footer-copyright > p > a
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.cafe-logo
+{
+    height: 20vh;
+    width: 10vw;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 767px) 
+{
+    .footer-inner 
+    {
+        padding-top: 30px;
+    }
+
+    .footer-social 
+    {
+        font-size: 18px;
+    }
+
+    .social > li > a 
+    {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .cafe-logo 
+    {
+        height: auto;
+        width: 30%;
+    }
+}

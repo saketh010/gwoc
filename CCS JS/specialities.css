@@ -1,0 +1,291 @@
+.Specialities{
+    display : grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px 30px 10px;    
+    height: 450px;
+    background-color: rgba(171, 68, 68, 0.504);
+    text-align: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .specialll{
+    margin-top: 20px;
+} */
+
+.so{
+    /* background-color: #d9d9d9;  */
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3C2A21;
+    width: 100vw;
+    height: 30vh;
+}
+
+.landing-image{
+    height: 120vh;
+    width: 99vw;
+  }
+
+.size{
+    height: 120vh;
+    width: 100vw;
+  }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 80vh;
+    width: 100vw;
+    /* border: 10px solid black; */
+    /* background-color: #F9E0BB; */
+    padding: 35px;
+    column-gap: 10px;
+    /* row-gap: 100px; */
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 25vw;
+    height: 65vh;
+    padding: 30px;
+    transform: rotate(-7deg);
+    transition-duration: 1s ;
+    box-shadow: 15px 15px 50px grey;
+}
+
+.container img{
+    height: 40vh;
+    width: 20vw;
+}
+
+/* .container img{
+    height: 80%;
+    width: 70%;
+    padding: 30px;
+} */
+
+.container p{
+    font-size: 30px;
+}
+
+.container:hover{
+    transform: rotate(0);
+    transition-duration: 0.5s;
+    height: 70vh;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.container img:hover{
+    height: 50vh;
+    width: 23vw;
+    transition-duration: 0.75s;
+    padding: 20px;
+}
+
+.container img{
+    transition-duration: 0.75s;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 25vw;
+    height: 65vh;
+    padding: 30px;
+    transform: rotate(7deg);
+    transition-duration: 1s ;
+    box-shadow: 15px 15px 50px grey;
+    margin-left: 100px;
+
+}
+
+.container1 p{
+    font-size: 30px;
+}
+
+.container1:hover{
+    transform: rotate(0);
+    transition-duration: 0.5s;
+    height: 70vh;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.container1 img:hover{
+    height: 50vh;
+    width: 23vw;
+    transition-duration: 0.75s;
+    padding: 20px;
+}
+
+.container1 img{
+    transition-duration: 0.75s;
+}
+
+.container1 img{
+    height: 40vh;
+    width: 20vw;
+}
+
+
+.omegacontainer
+{
+    background-image: url("https://i.pinimg.com/564x/de/6f/84/de6f842b660d1b993e0dd5272443fd65.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.bg-image1{
+    
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.bg-image2{
+    
+    /* filter: blur(10px); */
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.bg-image3{
+    
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.grid p{
+    /* color: white; */
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.image p{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+
+.black{
+    color: black;
+}
+
+.desc{
+    color: white;
+    font-size: 2em;
+}
+
+
+
+
+
+/* Base styles for desktop */
+/* ... existing styles ... */
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr; /* One column for smaller screens */
+    }
+    
+    .container, .container1 {
+        width: 90%; /* Adjust the width for smaller screens */
+        margin: 0 auto; /* Center the container */
+    }
+    
+    .landing-image, .size {
+        height: auto; /* Adjust the height for smaller screens */
+    }
+
+    .omegacontainer{
+        width: 100%;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .grid, .omegacontainer {
+        padding: 10px;
+    }
+    
+    .container, .container1 {
+        padding: 15px;
+    }
+    
+    .header {
+        padding: 10px;
+    }
+    
+    .grid p, .desc, .black {
+        font-size: 1.2em;
+    }
+
+    .omegacontainer{
+        width: 100%;
+    }
+
+    .container{
+        height: 45vh;
+        width: 55vw;
+        transform: rotate(0deg);
+    }
+
+    .container img{
+        height: 25vh;
+        width: 35vw;
+    }
+
+    .container p{
+        font-size: 16px;
+    }
+
+    .container1{
+        height: 45vh;
+        width: 55vw;
+        transform: rotate(0deg);
+    }
+
+    .container1 img{
+        height: 25vh;
+        width: 35vw;
+    }
+
+    .container1 p{
+        font-size: 16px;
+
+    }
+
+    .grid{
+        padding: 35px;
+        height: 75vh;
+    }
+
+
+    
+}
